@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Youtube Clone</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .youtube__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        background-color: red;
+      }
+      .youtube__logo {
+        width: 80px;
+      }
+      .fa-bars,
+      .fa-bell,
+      .fa-camera,
+      .fa-microphone {
+        color: #fff;
+        margin-right: 20px;
+        font-size: 20px;
+      }
+      .youtube__header__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+      }
+      .youtube__header__avatar {
+        background-color: #fff;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+      .youtube__header__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+      }
+      .youtube__header__avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .youtube__search__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #fff;
+      }
+      .youtube__header__center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+      }
+      .youtube__search__input {
+        width: 90%;
+        height: 20px;
+        border-width: 0px;
+        border-width: 2px solid gray;
+        /* padding: 10px; */
+      }
+      .youtube__search__icon {
+        border-right-color: red;
+      }
+    </style>
+  </head>
+  <body class="youtube">
+    <div class="youtube__header">
+      <div class="youtube__header__left">
+        <i class="fa fa-bars fa-fw"></i>
+        <img class="youtube__logo" src="images/youTube.svg" />
+      </div>
+      <div class="youtube__header__center">
+        <div class="youtube__search__container">
+          <!-- <div> -->
+          <input class="youtube__search__input" placeholder="Search" />
+          <!-- </div> -->
+          <div class="youtube__search__icon">
+            <i class="fa fa-search fa-fw"></i>
+          </div>
+        </div>
+        <!-- <div>
+          <i class="fa fa-microphone fa-fw"></i>
+        </div> -->
+      </div>
+      <div class="youtube__header__right">
+        <i class="fa fa-camera fa-fw"></i>
+        <i class="fa fa-bell fa-fw"></i>
+        <div class="youtube__header__avatar">
+          <h3>A</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
