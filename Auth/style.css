@@ -1,0 +1,147 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+.login__main__container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(187, 186, 186);
+    
+}
+
+.login__image{
+     width: 50%;
+     margin-left: 40px;
+     height: 350px;
+     margin-right: 40px;
+     padding-left: 100px;
+     /* border-radius: 10px; */
+
+}
+.login__item{
+ background-color: white;
+ width: 30%;
+ height: 540px;
+ border-radius: 15px;
+ padding-right: 40px;
+ margin-right: 5px;
+ 
+}
+.fa-paper-plane-o{
+    margin-left: 50%;
+    padding-top: 40px;
+}
+
+.login__header{
+     padding-top: 35px;
+     font-size: 20px;
+     text-align: center;
+     letter-spacing: 1px;
+   
+}
+
+.login__sample__text{
+     text-align: center;
+     color: rgb(218, 218, 218);
+     font-family: sans-serif;
+     font-size: 10px;
+}
+
+.login__email__container{
+     padding-top: 30px;
+     border-bottom: 2px solid rgb(176, 176, 176);
+     margin-left: 20px;
+}
+
+.login__email {
+     color: #555;
+     line-height: 1.2;
+     outline: none;
+     border: none;
+     overflow: visible;
+     padding: 0 5px;
+     height: 40px;
+     text-align: center;
+     padding-bottom: 10px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+  
+}
+
+.login__password{
+     outline: none;
+     border: none;
+     overflow: visible;
+     padding: 0 5px;
+     height: 40px;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login__password__container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 2px solid rgb(176, 176, 176);
+     margin-left: 20px; 
+  
+}
+
+.login__checkbox{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 15px;
+     padding-left: 2px;
+     margin-left: 15px;
+     padding-top: 5px;
+}
+.login__button_content{
+     padding-top: 40px;
+}
+
+.login__button_black{
+     /* padding: 0 5px; */
+     height: 40px;
+     padding-top: 10px;
+
+}
+
+.login__black{
+     /* padding:10px ; */
+     height: 35px;
+     width: 70%;
+     border-radius: 20px;
+     background-color: black;
+     color: white;
+     font-weight: bold;
+     margin-left: 70px;
+}
+
+.login__button__grey{
+     padding-top: 10px;
+}
+.login__grey{
+     height: 35px;
+     width: 70%;
+     border-radius: 20px;
+     background-color: rgb(244, 241, 241);
+     font-weight: 20px;
+     margin-left: 70px;
+    
+
+}
+
+.login__logo__google__svg{
+     width: 20px;
+     margin-right: 5px;   
+}
+
+.login__bottom__desc{
+     padding-top: 70px;
+     text-align: center;
+}
